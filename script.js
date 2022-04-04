@@ -80,7 +80,5 @@ input.addEventListener("input", setColor);
 
 function setColor() {
     colorCode.innerHTML = input.value;
+    body.style.backgroundColor = input.value;
 }
-        
-
-        
