@@ -64,13 +64,6 @@ function toHex(){
 }
 
 
-
-
-
-
-
-
-          
 const body = document.querySelector("body");
 const input = document.getElementById("colorPicker");
 const colorCode = document.getElementById("colorCode");
@@ -82,3 +75,6 @@ function setColor() {
     colorCode.innerHTML = input.value;
     body.style.backgroundColor = input.value;
 }
+        
+
+        
